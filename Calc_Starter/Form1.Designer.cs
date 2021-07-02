@@ -431,6 +431,7 @@ namespace SimpleCalculator
             this.Controls.Add(this.KeySign);
             this.Controls.Add(this.KeyPoint);
             this.Controls.Add(this.KeyZero);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "Form1";
             this.Text = "Form1";
             this.TopMost = true;

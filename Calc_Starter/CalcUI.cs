@@ -427,7 +427,7 @@ namespace SimpleCalculator
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
             this.exitToolStripMenuItem.Text = "&Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -443,7 +443,7 @@ namespace SimpleCalculator
             // WindowCascadeMenuItem
             // 
             this.WindowCascadeMenuItem.Name = "WindowCascadeMenuItem";
-            this.WindowCascadeMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.WindowCascadeMenuItem.Size = new System.Drawing.Size(133, 22);
             this.WindowCascadeMenuItem.Text = "&Cascade";
             this.WindowCascadeMenuItem.Click += new System.EventHandler(this.cascadeToolStripMenuItem_Click);
             // 
@@ -451,7 +451,7 @@ namespace SimpleCalculator
             // 
             this.WindowEngineMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.WindowEngineMenuItem.Name = "WindowEngineMenuItem";
-            this.WindowEngineMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.WindowEngineMenuItem.Size = new System.Drawing.Size(133, 22);
             this.WindowEngineMenuItem.Text = "&EngineCalc";
             this.WindowEngineMenuItem.Click += new System.EventHandler(this.tileToolStripMenuItem_Click);
             // 
@@ -542,6 +542,7 @@ namespace SimpleCalculator
             this.Controls.Add(this.OutputDisplay);
             this.Controls.Add(this.VersionInfo);
             this.Controls.Add(this.MdiMenu);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.MdiMenu;
             this.MaximizeBox = false;
