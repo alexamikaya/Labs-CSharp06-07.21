@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{124B8453-2CEF-4085-8282-3F188EA07861}</ProjectGuid>
+    <ProjectGuid>{E5DF6036-4121-4873-A1BB-2A5B6B732A0A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WinAnim</RootNamespace>
-    <AssemblyName>WinAnim</AssemblyName>
+    <RootNamespace>WinAsynchMethod</RootNamespace>
+    <AssemblyName>WinAsynchMethod</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

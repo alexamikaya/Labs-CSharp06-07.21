@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{124B8453-2CEF-4085-8282-3F188EA07861}</ProjectGuid>
+    <ProjectGuid>{74C3D923-DA30-4CBC-8951-7D5B305E57C7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WinAnim</RootNamespace>
-    <AssemblyName>WinAnim</AssemblyName>
+    <RootNamespace>WinBackgroundWorker</RootNamespace>
+    <AssemblyName>WinBackgroundWorker</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
