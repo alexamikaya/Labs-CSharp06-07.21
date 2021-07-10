@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid TextBoxBase.TextChanged="Grid_TextChanged">
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="161,233,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="161,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
         <RadioButton x:Name="radBut1" Content=" Обработка события в Textbox" HorizontalAlignment="Left" Margin="161,160,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="radBut2" Content=" Обработка события в Grid" HorizontalAlignment="Left" Margin="161,192,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="radBut3" Content=" Обработка события в Window" HorizontalAlignment="Left" Margin="161,113,0,0" VerticalAlignment="Top"/>
